@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.footerIcons {
+    font-size: 2.5em;
+    background-color: transparent;
+    vertical-align: middle;
+    display: flex;
+    list-style: none;
+    margin: .2rem;
+}
+
+.social {
+    display: flex;
+    gap: 1rem
+}
