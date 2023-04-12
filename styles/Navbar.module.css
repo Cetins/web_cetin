@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1.5rem 1rem 0;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    padding-left: 1rem;
+}
+
+.nav_list_items {
+    font-size: 1.5rem;
+}
+
+.nav_list_items:hover {
+    color: var(--accent-color);
+}
+
+.theme_toggle_button {
+    font-size: 1.8rem;
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+}
+
+.theme_toggle_button:hover {
+    color: var(--accent-color);
+}
+
+.theme_toggle_button:active {
+    animation: rotate 2s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
