@@ -5,7 +5,7 @@ const About = () => {
     <main>
       <h1>About me</h1>
       <article>
-        <p>Hi there! My name is Sezen Cetin, and I'm a software engineer and web developer based in Glasgow. But my journey to get here has been anything but straightforward.</p>
+        <p>Hi there! My name is Sezen Cetin, and I'm a software engineer based in Glasgow. But my journey to get here has been anything but straightforward.</p>
         <br/>
         <p>After completing my Bachelor's degree in Modern Greek Literature, I found myself working in the wholesale gold and silver jewelry industry as an international sales representative. However, despite being good at my job, I found that the industry was male-dominated, and I wasn't getting the appreciation I deserved. So I decided to make a change.</p>
         <br/>
