@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import styles from '../styles/Home.module.css'
 
 const Layout = ({ children }) => {
   const [theme, setTheme] = useState('light');
@@ -20,9 +19,9 @@ const Layout = ({ children }) => {
   };
   
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <Navbar />
-      <main className={styles.content}>{children}</main>
+      <main className='content'>{children}</main>
       <Footer />
     </div>
   );
