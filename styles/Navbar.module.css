@@ -1,3 +1,8 @@
+#theme-toggle {
+    padding: 1rem;
+    font-size: 5rem;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
