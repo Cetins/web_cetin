@@ -1,8 +1,3 @@
-#theme-toggle {
-    padding: 1rem;
-    font-size: 5rem;
-}
-
 .nav {
     display: flex;
     justify-content: space-between;
@@ -12,6 +7,7 @@
 .nav ul {
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .nav li {
@@ -27,7 +23,9 @@
 }
 
 .theme_toggle_button {
-    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
     background: transparent;
     border: none;
     color: var(--text-color);
