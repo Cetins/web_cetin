@@ -1,18 +1,44 @@
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 1rem;
 }
-.footerIcons {
-    font-size: 2.5em;
+
+.sm_p {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.social_button {
     background-color: transparent;
+}
+
+.footerIcons {
+    font-size: 3rem;
+    color: var(--text-color);
     vertical-align: middle;
-    display: flex;
-    list-style: none;
-    margin: .2rem;
 }
 
 .social {
     display: flex;
     gap: 1rem
+}
+
+@media screen and (max-width: 400px) {
+    .footer {
+      justify-content: center;
+      margin: 1rem;
+    }
+
+    .sm_p {
+        font-size: 1.2rem;
+        margin: .3rem;
+    }
+
+    .footerIcons {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        vertical-align: middle;
+    }
 }
