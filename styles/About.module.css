@@ -1,0 +1,27 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_item {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* Modern Desktop */
+@media screen and (max-width: 1600px) {}
+
+/* Old School Desktop */
+@media screen and (max-width: 1200px) {}
+
+/* Desktop */
+@media screen and (max-width: 992px) {}
+
+/* Tablet */
+@media screen and (max-width: 768px) {}
+
+/* Small Tablet */
+@media screen and (max-width: 480px) {}
+
+/* Mobile */
+@media screen and (max-width: 320px) {}
