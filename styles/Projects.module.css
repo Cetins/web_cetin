@@ -1,9 +1,72 @@
-.project_img {
-    width: 60rem;
+.projects_glass_container {
+    margin: 3rem;
+    padding: 2rem;
+    background: var(--glass-bg);
+    border-radius: 16px;
+    box-shadow: var(--glass-shadow);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: var(--glass-border);
+}
+
+.card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.card_image {
+    float: left;
+    margin: 5px;
+    width: 400px;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.card_p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+.repo_button {
+    display: flex;
+    align-self: center;
+    color: var(--background-color);
+    background-color: var(--opposite-text-color);
+    text-align: center;
+}
+
+.multi_button {
+    display: flex;
+    gap: 1rem;
+}
+
+.repo_button:hover {
+    color: var(--accent-color);
 }
 
 .github_link_logo {
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-right: 1rem;
     vertical-align: middle;
 }
+
+/* Modern Desktop */
+@media screen and (max-width: 1600px) {}
+
+/* Old School Desktop */
+@media screen and (max-width: 1200px) {}
+
+/* Desktop */
+@media screen and (max-width: 992px) {}
+
+/* Tablet */
+@media screen and (max-width: 768px) {}
+
+/* Small Tablet */
+@media screen and (max-width: 480px) {}
+
+/* Mobile */
+@media screen and (max-width: 320px) {}
